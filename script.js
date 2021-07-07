@@ -102,10 +102,10 @@ function setBackgroundGradient() {
         str = arr.substring(arr.indexOf('(') + 1, arr.lastIndexOf(')'));
         final = str.split(/,(?![^(]*\))(?![^"']*["'](?:[^"']*["'][^"']*["'])*[^"']*$)/);
         changeFontColor(final);
-
+         document.getElementById('copy').innerHTML = body.style.background + ";";
     })
 
-    document.getElementById('copy').innerHTML = body.style.background + ";";
+   
 }
 
 color1.addEventListener('input', setBackgroundGradient);
