@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Gradient generator</title>
+</head>
+
+<body id="gradient">
+    <div class="container">
+        <h3 class="text-center" style="font-size:30px" id='bg'>Background Generator</h3>
+        <p id='no'>Number of gradients:2</p>
+        <input value="2" id="numbers" hidden="true" type="number" min=2 max=7><br>
+        <h2 id='crnt'>Current CSS background</h2>
+        <ul id="color-numbers">
+            <input class="color" type="color" name="color1" value="#ff0000">
+            <input class="color" type="color" name="color2" value="#ff0000">
+        </ul>
+        <p id="dirgrad">Direction of gradient <br>
+            <select id=direction>
+                <option selected="selected" name="left">left</option>
+                <option name="right">right</option>
+            </select><br>
+            <input placeholder="You can specify the angle instead of direction! Enter value here" type="number"
+                id="percent" style="width:50%;font-size:18px;text-align:center;" min="-360" max="360"> <br>
+            <input type="btn" id="btn" class="btn btn-alert" value="click here" style="text-align:center;">
+        </p>
+        <h3 id="copy"></h3>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

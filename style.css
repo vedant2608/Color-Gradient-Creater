@@ -1,0 +1,47 @@
+body {
+  font: "Raleway", sans-serif, "cursive";
+  color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  top: 12%;
+  background: linear-gradient(to left, rgb(255, 0, 0), rgb(255, 255, 0));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+h1 {
+  font: 600 3.5em sans-serif;
+  color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+}
+
+h3 {
+  font: 900 1em sans-serif;
+  color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ul > input {
+  margin: 5px;
+}
+
+#btn:hover {
+  cursor: pointer;
+}
+
+#percent {
+  width: 40%;
+  margin: 3px 4px;
+}
